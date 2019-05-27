@@ -1,3 +1,7 @@
-.header{
+.head{
     position: fixed;
+}   
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
