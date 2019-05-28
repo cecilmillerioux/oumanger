@@ -6,19 +6,37 @@
             <meta name="description" content="Bons plans resto des Wilders ?">
             <link rel="stylesheet" href="styles.css">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    </head>
-    <body class="container position-relative">
+    <body>
         <header class="sticky-top">
-                <h1>Où manger?</h1>
-                <p>Tu passes la journée à la Wild Code School de Reims? Découvres nos bons plans restos!</p>
-            <nav>
-                <ul>
-                    <li>Restaurant</li>
-                    <li>Fast-Food</li>
-                    <li>Commerces alimentaires</li>
-                </ul>
-            </nav>
+                
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">Où manger ?</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#restaurant">Restaurant<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#fastfood">Fast Food<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#others">Commerce Alimentaire<span class="sr-only">(current)</span></a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
         </header>
-        <section id="resto"> <!-- Restaurant -->
+        <main  class="container">
+        <section id="restaurant"> <!-- Restaurant -->
             <h2>Restaurant</h2>
             <article>
                     <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><div class="card" style="width: 18rem;">
@@ -186,7 +204,8 @@
                         </div>
                 </div>
             </article>
-</section>
+        </section>
+        </main>
         <footer>
                 
         </footer>
