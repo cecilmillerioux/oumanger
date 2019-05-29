@@ -120,8 +120,8 @@
                 </article>
             </div>
         </section>
-        <section id="fastfood"> <!-- Fast Food -->
-            <h2>Fast Food</h2>
+        <section class="section" id="fastfood"> <!-- Fast Food -->
+            <h2 class="title">Fast Food</h2>
             <div class="row">
 
             <article>
@@ -210,8 +210,8 @@
             </article>
         </div>
     </section>
-    <section id="others"> <!-- Commerce Alimentaire  -->
-        <h2>Commerces Alimentaires</h2>
+    <section class="section" id="others"> <!-- Commerce Alimentaire  -->
+        <h2 class="title">Commerces Alimentaires</h2>
         <div class="row">
             
             <article>
@@ -293,6 +293,9 @@
                     var value = $(this).val().toLowerCase();
                     $(".card").filter(function() {
                       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                    $(".section").filter(function() {
+                      $(this).children(".title").toggle($(this).children(".card:visible").length > 0)
                     });
                   });
                 });
