@@ -29,7 +29,7 @@
                         </li>
                       </ul>
                       <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <input id="myInput" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                       </form>
                     </div>
@@ -199,7 +199,7 @@
                                 <p>Horaires: <br> Lundi - Jeudi: 9h - 20h <br> Vendredi - Samedi: 9h - 20h30 <br> Dimanche: 9h - 13h</p>
                                 <p>03 26 79 15 30</p>
                                 <p>Rue Jeanne d'Arc Centre Commercial Erlon</p>
-                                <a href="https://www.google.fr/maps/dir/6+Rue+de+Saint-Brice,+51100+Reims/MONOPRIX,+Reims/@49.2558479,4.0204082,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47e97501a1f9a0f5:0xf9ef0cdf67c7926a!2m2!1d4.0197215!2d49.2569415!1m5!1m1!1s0x47e975aab1e4f59b:0xcf68b1f0d6fb8219!2m2!1d4.0255689!2d49.2556589!3e2" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Itinéraire</a>
+                                <a href="https://goo.gl/maps/fhVzGB7nJraNUgkN9" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Itinéraire</a>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +208,11 @@
             </article>
             <article>
                 <div class="card" style="width: 18rem;" data-toggle="collapse" data-target="#collapseViet" aria-expanded="true" aria-controls="collapseExample">
+<<<<<<< HEAD
                     <img class="card-img-top" src="https://image.noelshack.com/fichiers/2019/22/2/1559031708-chez-p-tit-viet.png" alt="Chez le petit Viet">
+=======
+                    <img class="card-img-top" src="https://image.noelshack.com/fichiers/2019/22/2/1559031708-chez-p-tit-viet.png" alt="Chez p'ti viet">
+>>>>>>> f9813eef5caea2aecbc66f6bbc51e86bc1508956
                         <div class="card-body">
                             <h5 class="card-title">Chez p'tit Viet</h5>
                             <p class="card-text">Traiteur et plats préparés Vietnamiens</p>
@@ -220,7 +224,7 @@
                                 <p>Lundi - Samedi: 10h30 - 20h</p>
                                 <p>03 26 40 56 36</p>
                                 <p>11 Rue Condorcet</p>
-                                <a href="https://www.google.fr/maps/dir/6+Rue+de+Saint-Brice,+51100+Reims/11+Rue+Condorcet,+Reims/@49.2550266,4.0199857,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47e97501a1f9a0f5:0xf9ef0cdf67c7926a!2m2!1d4.0197215!2d49.2569415!1m5!1m1!1s0x47e97454b4ad31cd:0x1cb3c0f04ec6da7e!2m2!1d4.0291013!2d49.2544094!3e2" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Itinéraire</a>
+                                <a href="https://goo.gl/maps/uFv9eeXfUdWwnm8L7" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Itinéraire</a>
                                 </div>
                             </div>
                         
@@ -241,7 +245,7 @@
                             <p>Lundi - Samedi: 06h30 - 19h30</p>
                             <p>03 26 47 75 49</p>
                             <p>43 Rue de Courcelles</p>
-                            <a href="https://www.google.fr/maps/dir/6+Rue+de+Saint-Brice,+51100+Reims/43+Rue+de+Courcelles,+Reims/@49.2577781,4.0181603,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47e97501a1f9a0f5:0xf9ef0cdf67c7926a!2m2!1d4.0197215!2d49.2569415!1m5!1m1!1s0x47e97501148a3a03:0x7a4bec1808a93a2d!2m2!1d4.0206007!2d49.258465!3e2" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Itinéraire</a>
+                            <a href="https://goo.gl/maps/TB8etGUjsoLakh6t6" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Itinéraire</a>
                             </div>
                         </div>
                 
@@ -257,6 +261,19 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+        <script>
+                $(document).ready(function(){
+                  $("#myInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $(".card").filter(function() {
+                      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                  });
+                });
+        </script>
+    
+    
+    
     </body>
 
     </html>
