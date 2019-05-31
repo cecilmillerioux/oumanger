@@ -5,12 +5,11 @@ img
 .navbar{
     margin-bottom: 20px;
     border-bottom: 1px solid dimgray;
-    background-color: #F39C12;
+    background-color: #F0AB21;
 }
 h2{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
-
+body{
+    background-color: #F4F6F7;
