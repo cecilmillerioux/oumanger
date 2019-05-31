@@ -7,7 +7,7 @@ img{
     background-color: #F0AB21;
 }
 h2{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 body{
@@ -16,6 +16,9 @@ body{
 }
 .card{
     box-shadow: 1px 1px 12px #555;
+}
+#logo{
+    margin-top: 30px;
 }
 .footerId{
     border-top: 1px solid rgb(119, 118, 118);
