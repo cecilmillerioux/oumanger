@@ -303,9 +303,6 @@
                     $(".card").filter(function() {
                       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                     });
-                    $(".section").filter(function() {
-                      $(this).children(".title").toggle($(this).children(".card:visible").length > 0)
-                    });
                   });
                 });
         </script>
