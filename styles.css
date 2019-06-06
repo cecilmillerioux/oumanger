@@ -24,7 +24,16 @@ body{
     border-top: 1px solid rgb(119, 118, 118);
     margin-bottom: 5PX;
     color: rgb(119, 118, 118);
+    text-align: center;
 }
+.footerRow{
+    margin-bottom: 0PX;
+    margin-left: 50px;
+    color: rgb(119, 118, 118);
+    justify-content: space-around;
+    font-size: 13px;
+}
+
 h1{
     text-align: center;
     font-size: 35px;
