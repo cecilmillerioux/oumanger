@@ -1,1 +1,7 @@
-Projet "Où manger ?", bootstrap en equipe. Lea, Youssef, Cecil.
+# Projet 1 - Où manger?
+## Réalisé en équipe composé de [Cécil Millerioux](cecil), [Léa Goarant](lea) & [Youssef Sabouni](youssef)
+## Pour le compte de la Wild Code School.
+
+[cecil]: https://www.linkedin.com/in/cecil-millerioux/
+[lea]:
+[youssef]:
