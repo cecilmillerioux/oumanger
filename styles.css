@@ -34,6 +34,7 @@ h1{
     float: right;
     position: relative;
     height: 60px;
+    margin-top: 20px;
 }
 .card:hover .imgHover{
     opacity: 0.2;
