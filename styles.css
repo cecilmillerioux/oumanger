@@ -36,7 +36,7 @@ h1{
     height: 60px;
 }
 .card:hover .imgHover{
-    opacity: 0.5;
+    opacity: 0.2;
 }
 .euro{
     color: rgba(128, 128, 128, 0.521);
