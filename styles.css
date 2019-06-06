@@ -29,7 +29,6 @@ h1{
     text-align: center;
     font-size: 35px;
 }
-<<<<<<< HEAD
 .imgHover{
     opacity: 0;
     float: right;
@@ -39,8 +38,6 @@ h1{
 .card:hover .imgHover{
     opacity: 0.5;
 }
-=======
 .euro{
     color: grey;
 }
->>>>>>> 89367ab59f1591ac916f988e0398abf8bf02f2b8
