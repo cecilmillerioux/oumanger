@@ -1,5 +1,5 @@
 img{
-    height: 25vh;
+    height: 170px;
 }
 .navbar{
     margin-bottom: 20px;
@@ -9,6 +9,9 @@ img{
 h2{
     margin-top: 10px;
     margin-bottom: 20px;
+}
+h5{
+    color: black;
 }
 body{
     background-color: #F4F6F7;
@@ -28,9 +31,7 @@ body{
 }
 .footerRow{
     margin-bottom: 0PX;
-    margin-left: 50px;
     color: rgb(119, 118, 118);
-    justify-content: space-around;
     font-size: 13px;
 }
 
